@@ -1,7 +1,7 @@
 import time
 from slackclient import SlackClient
 
-token = "xoxb-215245499840-8P8Y6EUekGjQyXOv6gdIPYIA"# found at https://api.slack.com/web#authentication
+token = "SLACK_BOT_TOKEN"# found at https://api.slack.com/web#authentication
 sc = SlackClient(token)
 print sc.api_call("api.test")
 print sc.api_call("channels.info", channel="1234567890")
